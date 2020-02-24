@@ -1,0 +1,35 @@
+{
+  "name": "todo-final",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "browserslist": "^4.8.7",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.1.8",
+    "react": "^16.12.0",
+    "react-app-rewire-mobx": "^1.0.9",
+    "react-app-rewired": "1.6.2",
+    "react-dom": "^16.12.0",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "homepage": "https://f-shakeri.github.io/todo"
+}
