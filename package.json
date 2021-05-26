@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "browserslist": "^4.8.7",
+    "browserslist": "^4.16.5",
     "mobx": "^5.15.4",
     "mobx-react": "^6.1.8",
     "react": "^16.12.0",
